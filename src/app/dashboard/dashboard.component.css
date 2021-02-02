@@ -1,12 +1,10 @@
-#container{
-    z-index: 5;
-}
+
 #imagediv {
     float: right;
 }
 #imagediv img{
    margin-left: 400px;
-   margin-top: 0px;
+   margin-top: 30px;
     width: 60%;
     height: 60%;
 }
