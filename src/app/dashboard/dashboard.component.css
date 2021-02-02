@@ -1,7 +1,14 @@
-
+#container{
+    z-index: 5;
+}
+#imagediv {
+    float: right;
+}
 #imagediv img{
-    width: 100%;
-    height: 100%;
+   margin-left: 400px;
+   margin-top: 0px;
+    width: 60%;
+    height: 60%;
 }
 
 .card{
@@ -15,5 +22,5 @@
 #card_image img{
     margin: 0%;
     width: 100%;
-    height: 100%;
+    height: 90%;
 }
