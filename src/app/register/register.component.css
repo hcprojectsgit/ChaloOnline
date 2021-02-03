@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.parent{
+.parent{     /*parent element fof they page */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,13 +27,17 @@
   height: 100%;
 }
 .mainform{
+  
   background-color: white;
   width: 70%;
   height: 80%;
 }
 .mainform input{
-  outline: none;
-  
+  border: 0;
+outline: 0;
+background: transparent;
+border-bottom: 3px solid blue;
+
 }
 .mainform button{
   background:linear-gradient(to right,blue , #37d5d6 );
