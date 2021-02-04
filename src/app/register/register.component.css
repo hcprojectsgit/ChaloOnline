@@ -10,6 +10,8 @@
   width: 100vw;
   height: 100vh;
 }
+
+/* left side div */
 .leftside{
   width: 50%;
   height: 100%;
@@ -34,6 +36,8 @@
   height: 100px;
   
 }
+
+/* right div */
 .rightside{
  
   display: flex;
@@ -42,6 +46,8 @@
   width: 50%;
   height: 100%;
 }
+
+/* form style */
 .mainform{
   
   background-color: white;
