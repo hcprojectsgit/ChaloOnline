@@ -11,7 +11,7 @@
   height: 100vh;
 }
 .leftside{
-  width: 60%;
+  width: 50%;
   height: 100%;
 }
 .leftside img{
@@ -23,7 +23,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 50%;
   height: 100%;
 }
 .mainform{
