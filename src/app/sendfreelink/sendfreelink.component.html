@@ -1,5 +1,8 @@
-<div>
-    <h2> Send Free Link </h2>
-    <input type="text" placeholder="Enter text to be copied" #userinput>
-    <button (click)="copyInputMessage(userinput)" value="click to copy" >Copy from Textbox</button>
+<h2> Send Free Link </h2>
+<div class="container parentdiv">
+    <div class="shadow mydiv border-1">
+        <input type="text" placeholder="Enter text to be copied" #userinput>
+        <button (click)="copyInputMessage(userinput)" class="btn btn-sm btn-primary" value="click to copy">Copy from
+            Textbox</button>
+    </div>
 </div>

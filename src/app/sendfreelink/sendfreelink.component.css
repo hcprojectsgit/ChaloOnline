@@ -1,0 +1,22 @@
+.mydiv{
+    width: 40vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mydiv label{
+    width: 30%;
+}
+.mydiv input{
+    outline: none;
+    width: 70%;
+    height: 25%;
+    margin-right: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+
+}
+.parentdiv{
+    height: 20vh;
+}
