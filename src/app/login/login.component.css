@@ -76,10 +76,27 @@
 }
 
 
-#loginchild button{
+#loginchild .mybtn{
     margin-left: 30%;
+    outline: none;
     padding: 5px;
     color: white;
     background:linear-gradient(to right,blue , #37d5d6 );
   
+}
+/* icons css */
+.icons{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons button{
+    width: 40%;
+    outline: none;
+    padding: 5px;
+    color: white;
+    background:linear-gradient(to right,blue , #37d5d6 );
+   
 }
